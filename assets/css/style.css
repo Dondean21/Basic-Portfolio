@@ -1,5 +1,6 @@
 body{
-    background-color: whitesmoke;
+    background-image: url("/Users/donalddean/Basic-Portfolio/assets/images/asanoha-400px.png");
+    
 }
 
 header{
@@ -91,16 +92,21 @@ h2{
     
 
 }
-
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
 .portfolio-container {
 
     
     border-style: solid;
     border-width: .5px;
     border-color:#dddddd;
-    width:400px;
+    width:800px;
     margin: auto;
     background-color:#ffffff;
+
 
 
 }
@@ -118,6 +124,11 @@ h2{
 
 }
 
+.hangman-container{
+
+float: left;
+}
+
 .hangman-container .text-block {
     position: absolute;
     background-color: #4aaaa5;
@@ -126,7 +137,12 @@ h2{
     padding-right: 100px;
     bottom: 60px;
     left: 20px;
- 
+    
+}
+
+.rpg-game-container {
+
+    float: left;
 }
 
 .rpg-game-container .text-block {
@@ -137,7 +153,12 @@ h2{
     padding-right: 100px;
     bottom: 60px;
     left: 20px;
-    display: inline-block;
+    
+}
+
+.trivia-game-container {
+
+    float: left;
 }
 
 .trivia-game-container .text-block {
@@ -149,6 +170,10 @@ h2{
     bottom: 60px;
     left: 20px;
 
+}
+ 
+.info-widget-container{
+    float: left;
 }
 
 .info-widget-container .text-block {
