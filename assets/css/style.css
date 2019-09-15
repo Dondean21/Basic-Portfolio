@@ -81,7 +81,7 @@ h2{
     color: #777777;
     display: table;
     padding-left: 20px;
-    /* margin-bottom: 10px; */
+    padding-bottom: 30px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     /* padding-left: 20px; */
     
@@ -242,7 +242,8 @@ float: left;
       background-color:#666666;
       color:#777777;
       padding-top: 20px;
-      margin-top: 20px;
+      padding-bottom: 20px;
+      margin-top: 40px;
       font-family: Georgia, 'Times New Roman', Times, serif;
       border-top: 8px solid #4aaaa5;
   }
